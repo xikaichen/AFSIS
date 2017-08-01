@@ -1,0 +1,14 @@
+{
+    "username": "xc2358",
+    "password": "Chen1994",
+    "outputdirectory": "/vega/afsis/users//xc2358/sentinel/dsen0/data_gha6/",
+
+    "platformname": "Sentinel-2",
+    "countrycode": "GHA",
+    "startdate": "2016-06-01T00:00:00.000Z",
+    "enddate": "2016-06-31T23:59:59.999Z",
+    "producttype": "",
+    "polarisationmode": "",
+    "sensoroperationalmode": "",
+    "orbitdirection": ""
+}
