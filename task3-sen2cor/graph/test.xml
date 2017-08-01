@@ -1,0 +1,31 @@
+<graph id="Graph">
+  <version>1.0</version>
+  <node id="Read">
+    <operator>Read</operator>
+    <sources/>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <file>${file}</file>
+    </parameters>
+  </node>
+  <node id="Sen2Cor">
+    <operator>Sen2Cor</operator>
+    <sources>
+      <sourceProduct refid="Read"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <targetProductFile/>
+      <postExecuteTemplate>Sen2Cor-post-template.vm</postExecuteTemplate>
+      <sceneOnly/>
+      <resolution>10</resolution>
+    </parameters>
+  </node>
+  <applicationData id="Presentation">
+    <Description/>
+    <node id="Read">
+            <displayPosition x="37.0" y="134.0"/>
+    </node>
+    <node id="Sen2Cor">
+      <displayPosition x="208.0" y="94.0"/>
+    </node>
+  </applicationData>
+</graph>
