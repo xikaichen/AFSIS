@@ -1,0 +1,15 @@
+dir: cannot access /data2/sentinel1/analysis/ghana/*/mosaic.tmp/*.dim: No such file or directory
+WARNING: org.esa.snap.core.util.ServiceFinder: Can't search for SPIs, not a directory: /home/xchen/.snap/snap-python
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Loading external tools...
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /opt/snap/s1tbx
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /opt/snap/java
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /home/xchen/.snap/auxdata/tool-adapters
+
+Error: ProductSet-Reader fileList is empty
+WARNING: org.esa.snap.core.util.ServiceFinder: Can't search for SPIs, not a directory: /home/xchen/.snap/snap-python
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Loading external tools...
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /opt/snap/s1tbx
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /opt/snap/java
+INFO: org.esa.snap.core.gpf.operators.tooladapter.ToolAdapterIO: Scanning for external tools adapters: /home/xchen/.snap/auxdata/tool-adapters
+
+Error: [NodeId: Read] Specified 'file' does not exist
